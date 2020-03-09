@@ -1,7 +1,7 @@
 # Smart Finalize Savings Accounts 
 ![](https://img.shields.io/badge/version-1.1-brightgreen) ![](https://img.shields.io/badge/node-v12.15.0-red)
-Minimized interest lost when finalizing savings accounts before maturity when you need money for other purposes.
 
+Minimized interest lost when finalizing savings accounts before maturity when you need money for other purposes.
 
 ## Require
 * node.js (don't have?, download it here: https://nodejs.org/en/download/)
