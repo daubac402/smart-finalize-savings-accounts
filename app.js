@@ -6,6 +6,8 @@ var knapSackResult = knapSack(W, accounts, accounts.length);
 var finalResult = accounts.filter(account => !knapSackResult.accounts.includes(account));
 
 console.log(finalResult);
+var finalLost = finalResult.reduce((total, account) => total + account.lost, 0);
+console.log("finalLost = " + finalLost);
 
 /*---------------------------------------------------------------------*/
 function knapSack(W, accounts, n) {
@@ -26,6 +28,6 @@ function knapSack(W, accounts, n) {
         _way1.totalLost += accounts[n-1].lost;
         let _way2 = knapSack(W, accounts, n-1);
 
-        return (_way1.totalLost > _way2.totalLost) ? _way1 : _way2;
+        return _way1.totalLost > _way2.totalLost ? _way1 : _way2;
     }
 }
