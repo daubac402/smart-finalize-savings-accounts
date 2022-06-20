@@ -3,6 +3,8 @@
 
 Minimized interest lost when finalizing savings accounts before maturity when you need money for other purposes.
 
+*Using Knapsack problem algorithm
+
 ## Require
 * node.js (don't have?, download it here: https://nodejs.org/en/download/)
 
